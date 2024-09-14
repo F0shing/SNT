@@ -1,6 +1,6 @@
 # 2nd SNT
-- [Projet Batman (avec cahier des charges)](https://github.com/F0shing/SNT/edit/main/README.md#cahier-des-charges---projet-batman)
-- [Projet Personnel (avec cahier des charges)](https://github.com/F0shing/SNT/edit/main/README.md#cahier-des-charges---projet-batman)
+- [Projet Batman (avec cahier des charges)](https://github.com/F0shing/SNT?tab=readme-ov-file#cahier-des-charges---projet-batman)
+- [Projet Personnel (avec cahier des charges)](https://github.com/F0shing/SNT?tab=readme-ov-file#cahier-des-charges---projet-perso)
 
 ## Cloner le projet
 ```
