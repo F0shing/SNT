@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+
+:root {
+    --line-clr: #42434a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #18181b;
+    font-family: 'Roboto Mono';
+    color: white;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 30px;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding: min(3em, 15%);
+    gap: 4em;
+    flex-wrap: wrap;
+    /* border: white 1px solid; */
+}
+
+.cartes {
+    background-color: #242328;
+    /* border: white 1px solid; */
+    margin-bottom: auto;
+    height: auto;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.2s ease-out;
+}
+
+.cartes:hover {
+    transform: scale(1.025);
+}
+
+img {
+    border-radius: 16px;
+}
+
+.batmobile {
+    object-fit: contain;
+    width: 400px;
+    height: 100%;
+    /* border: white 1px solid; */
+}
+
+.batmoto {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    /* border: white 1px solid; */
+} 
+
+.batwing {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    /* border: white 1px solid; */
+} 
+
+.bt-title {
+    padding-top: 15px;
+    font-size: 1.5em;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.descriptions {
+    color: #71717a;
+    background-color: #201f24;
+    border-radius: 16px;
+    /* border: white 1px solid; */
+    padding: 10px;
+}
+
+.icons-btn {
+    /* border: white 1px solid; */
+    display: flex;
+    padding: min(3em, 15%);
+    margin: 30px;
+    gap: 30px;
+
+    border-bottom: var(--line-clr) 1px solid;
+}
+
+.icon-sortie{
+    padding: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #242328;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-out; 
+    /* border: white 1px solid; */
+}
+
+.icon-github {
+    padding: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: #242328;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-out; 
+    /* border: white 1px solid; */
+}
+
+.icon-sortie:hover {
+    transform: scale(1.1);
+}
+
+.icon-github:hover {
+    transform: scale(1.1);
+}
